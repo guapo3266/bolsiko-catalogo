@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "negocio": {
+    "nombre": "Bolsiko",
+    "whatsapp": "",
+    "direccion": "",
+    "horario": "Lunes a sábado, 9:00 a 19:00",
+    "diasEntrega": 8
+  },
+  "colores": [
+    { "id": "azul", "nombre": "Azul rey", "hex": "#2347A8" },
+    { "id": "rojo", "nombre": "Rojo", "hex": "#C0302F" },
+    { "id": "verde", "nombre": "Verde", "hex": "#1E7A4A" },
+    { "id": "rosa", "nombre": "Rosa mexicano", "hex": "#D2306F" },
+    { "id": "naranja", "nombre": "Naranja", "hex": "#DD6A1F" },
+    { "id": "morado", "nombre": "Morado", "hex": "#5B3AA6" },
+    { "id": "cafe", "nombre": "Café", "hex": "#6E4428" },
+    { "id": "negro", "nombre": "Negro", "hex": "#24262C" }
+  ],
+  "tintas": [
+    { "id": "dorado", "nombre": "Dorado", "hex": "#E3C56F" },
+    { "id": "blanco", "nombre": "Blanco", "hex": "#FFFFFF" },
+    { "id": "plata", "nombre": "Plata", "hex": "#CDD3DB" },
+    { "id": "amarillo", "nombre": "Amarillo", "hex": "#F4CE2E" },
+    { "id": "negro", "nombre": "Negro", "hex": "#16181C" }
+  ],
+  "iconos": ["maiz", "tortillas", "trigo", "pan", "cruz", "estrella", "corazon", "sol", "flor", "tienda", "ninguno"],
+  "modelos": [
+    {
+      "id": "chica",
+      "nombre": "Tortillera chica",
+      "medidas": "25 × 25 cm",
+      "uso": "Hasta 1 kg de tortilla",
+      "proporcion": 1,
+      "colores": ["azul", "rojo", "verde", "rosa", "naranja", "morado", "cafe", "negro"],
+      "personalizada": {
+        "minimo": 50,
+        "precios": [
+          { "desde": 50, "precio": 30 },
+          { "desde": 100, "precio": 26 },
+          { "desde": 300, "precio": 23 },
+          { "desde": 500, "precio": 20 }
+        ]
+      },
+      "lisa": {
+        "precios": [
+          { "desde": 1, "precio": 28 },
+          { "desde": 12, "precio": 24 },
+          { "desde": 50, "precio": 21 }
+        ]
+      }
+    },
+    {
+      "id": "grande",
+      "nombre": "Tortillera grande",
+      "medidas": "30 × 30 cm",
+      "uso": "Hasta 2 kg de tortilla",
+      "proporcion": 1,
+      "colores": ["azul", "rojo", "verde", "rosa", "naranja", "cafe", "negro"],
+      "personalizada": {
+        "minimo": 50,
+        "precios": [
+          { "desde": 50, "precio": 36 },
+          { "desde": 100, "precio": 32 },
+          { "desde": 300, "precio": 28 },
+          { "desde": 500, "precio": 25 }
+        ]
+      },
+      "lisa": {
+        "precios": [
+          { "desde": 1, "precio": 34 },
+          { "desde": 12, "precio": 30 },
+          { "desde": 50, "precio": 27 }
+        ]
+      }
+    },
+    {
+      "id": "mandado",
+      "nombre": "Bolsa de mandado",
+      "medidas": "35 × 40 cm",
+      "uso": "Panadería, carnicería y mandado",
+      "proporcion": 1.16,
+      "colores": ["azul", "rojo", "verde", "morado", "negro"],
+      "personalizada": {
+        "minimo": 50,
+        "precios": [
+          { "desde": 50, "precio": 52 },
+          { "desde": 100, "precio": 46 },
+          { "desde": 300, "precio": 41 },
+          { "desde": 500, "precio": 37 }
+        ]
+      },
+      "lisa": {
+        "precios": [
+          { "desde": 1, "precio": 48 },
+          { "desde": 12, "precio": 43 },
+          { "desde": 50, "precio": 39 }
+        ]
+      }
+    }
+  ],
+  "promociones": [
+    {
+      "id": "apertura",
+      "titulo": "10 % menos en tu primer pedido grande",
+      "detalle": "Desde 200 piezas",
+      "desde": "2026-11-01",
+      "hasta": "2026-11-30",
+      "descuento": 10,
+      "minimo": 200
+    },
+    {
+      "id": "diciembre",
+      "titulo": "Bolsas para el fin de año",
+      "detalle": "8 % menos desde 500 piezas",
+      "desde": "2026-12-01",
+      "hasta": "2026-12-31",
+      "descuento": 8,
+      "minimo": 500
+    }
+  ],
+  "galeria": [
+    { "id": "g1", "modelo": "grande", "color": "azul", "tinta": "dorado", "icono": "maiz", "nombre": "Tortillería", "nombre2": "El Molino", "linea": "Av. Juárez 15 · Tel. 461 000 0000" },
+    { "id": "g2", "modelo": "mandado", "color": "cafe", "tinta": "dorado", "icono": "trigo", "nombre": "Panadería", "nombre2": "La Espiga", "linea": "Calle Hidalgo 8" },
+    { "id": "g3", "modelo": "chica", "color": "rojo", "tinta": "blanco", "icono": "tortillas", "nombre": "Tortillas", "nombre2": "Doña Lupe", "linea": "Mercado Morelos, local 12" },
+    { "id": "g4", "modelo": "mandado", "color": "verde", "tinta": "amarillo", "icono": "tienda", "nombre": "Abarrotes", "nombre2": "La Güera", "linea": "Esquina Allende y Madero" },
+    { "id": "g5", "modelo": "grande", "color": "morado", "tinta": "plata", "icono": "cruz", "nombre": "Tortillería", "nombre2": "San José", "linea": "Col. Centro" },
+    { "id": "g6", "modelo": "chica", "color": "rosa", "tinta": "blanco", "icono": "corazon", "nombre": "Antojitos", "nombre2": "Mi Amor", "linea": "Pedidos 461 000 0000" }
+  ]
+}
